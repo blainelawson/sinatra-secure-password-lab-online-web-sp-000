@@ -1,4 +1,4 @@
 class User < ActiveRecord::Base
-  use_password_authentication
+  has_secure_password
 
 end
